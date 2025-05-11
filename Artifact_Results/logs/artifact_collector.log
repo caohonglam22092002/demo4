@@ -1,0 +1,219 @@
+2025-05-06 12:03:43 - INFO - ==================================================
+2025-05-06 12:03:43 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:03:43 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Results
+2025-05-06 12:03:43 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:03:43 - INFO - Bắt đầu xử lý hiện vật: Thông tin kết nối (cổng đang mở)
+2025-05-06 12:03:43 - INFO - Bắt đầu thu thập: Connection Info
+2025-05-06 12:03:43 - ERROR - Lỗi khi thu thập Connection Info: name 'case_ref_entry' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 155, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 530, in connection_info_func
+    case_number = case_ref_entry.get().replace('/', '_')
+                  ^^^^^^^^^^^^^^
+NameError: name 'case_ref_entry' is not defined
+2025-05-06 12:03:43 - ERROR - Lỗi khi xử lý hiện vật Thông tin kết nối (cổng đang mở): name 'case_ref_entry' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1685, in start_collection
+    func(output_directory)
+    ~~~~^^^^^^^^^^^^^^^^^^
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 155, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 530, in connection_info_func
+    case_number = case_ref_entry.get().replace('/', '_')
+                  ^^^^^^^^^^^^^^
+NameError: name 'case_ref_entry' is not defined
+2025-05-06 12:03:43 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:03:49 - INFO - ==================================================
+2025-05-06 12:03:49 - INFO - ==================================================
+2025-05-06 12:03:49 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:03:49 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:03:49 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Results
+2025-05-06 12:03:49 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Results
+2025-05-06 12:03:49 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:03:49 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:03:49 - INFO - Bắt đầu xử lý hiện vật: Thông tin kết nối (cổng đang mở)
+2025-05-06 12:03:49 - INFO - Bắt đầu xử lý hiện vật: Thông tin kết nối (cổng đang mở)
+2025-05-06 12:03:49 - INFO - Bắt đầu thu thập: Connection Info
+2025-05-06 12:03:49 - INFO - Bắt đầu thu thập: Connection Info
+2025-05-06 12:03:49 - ERROR - Lỗi khi thu thập Connection Info: name 'case_ref_entry' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 155, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 530, in connection_info_func
+    case_number = case_ref_entry.get().replace('/', '_')
+                  ^^^^^^^^^^^^^^
+NameError: name 'case_ref_entry' is not defined
+2025-05-06 12:03:49 - ERROR - Lỗi khi thu thập Connection Info: name 'case_ref_entry' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 155, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 530, in connection_info_func
+    case_number = case_ref_entry.get().replace('/', '_')
+                  ^^^^^^^^^^^^^^
+NameError: name 'case_ref_entry' is not defined
+2025-05-06 12:03:49 - ERROR - Lỗi khi xử lý hiện vật Thông tin kết nối (cổng đang mở): name 'case_ref_entry' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1685, in start_collection
+    func(output_directory)
+    ~~~~^^^^^^^^^^^^^^^^^^
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 155, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 530, in connection_info_func
+    case_number = case_ref_entry.get().replace('/', '_')
+                  ^^^^^^^^^^^^^^
+NameError: name 'case_ref_entry' is not defined
+2025-05-06 12:03:49 - ERROR - Lỗi khi xử lý hiện vật Thông tin kết nối (cổng đang mở): name 'case_ref_entry' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1685, in start_collection
+    func(output_directory)
+    ~~~~^^^^^^^^^^^^^^^^^^
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 155, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 530, in connection_info_func
+    case_number = case_ref_entry.get().replace('/', '_')
+                  ^^^^^^^^^^^^^^
+NameError: name 'case_ref_entry' is not defined
+2025-05-06 12:03:49 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:03:49 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:04:32 - INFO - ==================================================
+2025-05-06 12:04:32 - INFO - ==================================================
+2025-05-06 12:04:32 - INFO - ==================================================
+2025-05-06 12:04:32 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:04:32 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:04:32 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:04:32 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Results
+2025-05-06 12:04:32 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Results
+2025-05-06 12:04:32 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Results
+2025-05-06 12:04:32 - INFO - Bắt đầu thu thập 2 hiện vật được chọn
+2025-05-06 12:04:32 - INFO - Bắt đầu thu thập 2 hiện vật được chọn
+2025-05-06 12:04:32 - INFO - Bắt đầu thu thập 2 hiện vật được chọn
+2025-05-06 12:04:32 - INFO - Bắt đầu xử lý hiện vật: Thông tin kết nối (cổng đang mở)
+2025-05-06 12:04:32 - INFO - Bắt đầu xử lý hiện vật: Thông tin kết nối (cổng đang mở)
+2025-05-06 12:04:32 - INFO - Bắt đầu xử lý hiện vật: Thông tin kết nối (cổng đang mở)
+2025-05-06 12:04:32 - INFO - Bắt đầu thu thập: Connection Info
+2025-05-06 12:04:32 - INFO - Bắt đầu thu thập: Connection Info
+2025-05-06 12:04:32 - INFO - Bắt đầu thu thập: Connection Info
+2025-05-06 12:04:32 - ERROR - Lỗi khi thu thập Connection Info: name 'case_ref_entry' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 155, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 530, in connection_info_func
+    case_number = case_ref_entry.get().replace('/', '_')
+                  ^^^^^^^^^^^^^^
+NameError: name 'case_ref_entry' is not defined
+2025-05-06 12:04:32 - ERROR - Lỗi khi thu thập Connection Info: name 'case_ref_entry' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 155, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 530, in connection_info_func
+    case_number = case_ref_entry.get().replace('/', '_')
+                  ^^^^^^^^^^^^^^
+NameError: name 'case_ref_entry' is not defined
+2025-05-06 12:04:32 - ERROR - Lỗi khi thu thập Connection Info: name 'case_ref_entry' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 155, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 530, in connection_info_func
+    case_number = case_ref_entry.get().replace('/', '_')
+                  ^^^^^^^^^^^^^^
+NameError: name 'case_ref_entry' is not defined
+2025-05-06 12:04:32 - ERROR - Lỗi khi xử lý hiện vật Thông tin kết nối (cổng đang mở): name 'case_ref_entry' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1685, in start_collection
+    func(output_directory)
+    ~~~~^^^^^^^^^^^^^^^^^^
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 155, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 530, in connection_info_func
+    case_number = case_ref_entry.get().replace('/', '_')
+                  ^^^^^^^^^^^^^^
+NameError: name 'case_ref_entry' is not defined
+2025-05-06 12:04:32 - ERROR - Lỗi khi xử lý hiện vật Thông tin kết nối (cổng đang mở): name 'case_ref_entry' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1685, in start_collection
+    func(output_directory)
+    ~~~~^^^^^^^^^^^^^^^^^^
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 155, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 530, in connection_info_func
+    case_number = case_ref_entry.get().replace('/', '_')
+                  ^^^^^^^^^^^^^^
+NameError: name 'case_ref_entry' is not defined
+2025-05-06 12:04:32 - ERROR - Lỗi khi xử lý hiện vật Thông tin kết nối (cổng đang mở): name 'case_ref_entry' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1685, in start_collection
+    func(output_directory)
+    ~~~~^^^^^^^^^^^^^^^^^^
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 155, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 530, in connection_info_func
+    case_number = case_ref_entry.get().replace('/', '_')
+                  ^^^^^^^^^^^^^^
+NameError: name 'case_ref_entry' is not defined
+2025-05-06 12:04:32 - INFO - Bắt đầu xử lý hiện vật: Thông tin NetBIOS
+2025-05-06 12:04:32 - INFO - Bắt đầu xử lý hiện vật: Thông tin NetBIOS
+2025-05-06 12:04:32 - INFO - Bắt đầu xử lý hiện vật: Thông tin NetBIOS
+2025-05-06 12:04:32 - INFO - Bắt đầu thu thập: Netbios Info
+2025-05-06 12:04:32 - INFO - Bắt đầu thu thập: Netbios Info
+2025-05-06 12:04:32 - INFO - Bắt đầu thu thập: Netbios Info
+2025-05-06 12:04:32 - ERROR - Lỗi khi thu thập Netbios Info: name 'case_ref_entry' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 155, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 591, in NetBIOS_info_func
+    case_number = case_ref_entry.get().replace('/', '_')
+                  ^^^^^^^^^^^^^^
+NameError: name 'case_ref_entry' is not defined
+2025-05-06 12:04:32 - ERROR - Lỗi khi thu thập Netbios Info: name 'case_ref_entry' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 155, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 591, in NetBIOS_info_func
+    case_number = case_ref_entry.get().replace('/', '_')
+                  ^^^^^^^^^^^^^^
+NameError: name 'case_ref_entry' is not defined
+2025-05-06 12:04:32 - ERROR - Lỗi khi thu thập Netbios Info: name 'case_ref_entry' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 155, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 591, in NetBIOS_info_func
+    case_number = case_ref_entry.get().replace('/', '_')
+                  ^^^^^^^^^^^^^^
+NameError: name 'case_ref_entry' is not defined
+2025-05-06 12:04:32 - ERROR - Lỗi khi xử lý hiện vật Thông tin NetBIOS: name 'case_ref_entry' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1685, in start_collection
+    func(output_directory)
+    ~~~~^^^^^^^^^^^^^^^^^^
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 155, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 591, in NetBIOS_info_func
+    case_number = case_ref_entry.get().replace('/', '_')
+                  ^^^^^^^^^^^^^^
+NameError: name 'case_ref_entry' is not defined
+2025-05-06 12:04:32 - ERROR - Lỗi khi xử lý hiện vật Thông tin NetBIOS: name 'case_ref_entry' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1685, in start_collection
+    func(output_directory)
+    ~~~~^^^^^^^^^^^^^^^^^^
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 155, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 591, in NetBIOS_info_func
+    case_number = case_ref_entry.get().replace('/', '_')
+                  ^^^^^^^^^^^^^^
+NameError: name 'case_ref_entry' is not defined
+2025-05-06 12:04:32 - ERROR - Lỗi khi xử lý hiện vật Thông tin NetBIOS: name 'case_ref_entry' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1685, in start_collection
+    func(output_directory)
+    ~~~~^^^^^^^^^^^^^^^^^^
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 155, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 591, in NetBIOS_info_func
+    case_number = case_ref_entry.get().replace('/', '_')
+                  ^^^^^^^^^^^^^^
+NameError: name 'case_ref_entry' is not defined
+2025-05-06 12:04:32 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:04:32 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:04:32 - INFO - Đã hoàn thành tất cả tác vụ thu thập

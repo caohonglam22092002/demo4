@@ -1,0 +1,886 @@
+2025-05-04 16:07:56 - INFO - ==================================================
+2025-05-04 16:07:56 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-04 16:07:56 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-04 16:07:56 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-04 16:07:56 - INFO - Bắt đầu xử lý hiện vật: Danh sách Handle đang mở
+2025-05-04 16:07:56 - INFO - Bắt đầu thu thập: Open Handle Info
+2025-05-04 16:07:56 - INFO - Hoàn thành thu thập Open Handle Info trong 0.00 giây
+2025-05-04 16:07:56 - INFO - Hoàn thành xử lý hiện vật: Danh sách Handle đang mở
+2025-05-04 16:07:56 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-04 17:42:10 - INFO - ==================================================
+2025-05-04 17:42:10 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-04 17:42:10 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-04 17:42:11 - CRITICAL - Lỗi nghiêm trọng trong quá trình thực thi: bad window path name ".!toplevel"
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1398, in execute_and_save_artifacts
+    update_status = open_status_window()
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1251, in open_status_window
+    exit_button = tk.Button(status_window, text="Thoát", command=on_exit)
+                  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Caoho\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2852, in __init__
+    Widget.__init__(self, master, 'button', cnf, kw)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Caoho\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2774, in __init__
+    self.tk.call(
+    ~~~~~~~~~~~~^
+        (widgetName, self._w) + extra + self._options(cnf))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: bad window path name ".!toplevel"
+2025-05-04 17:44:22 - INFO - ==================================================
+2025-05-04 17:44:22 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-04 17:44:22 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-04 17:44:22 - CRITICAL - Lỗi nghiêm trọng trong quá trình thực thi: cannot use geometry manager pack inside . which already has slaves managed by grid
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1384, in execute_and_save_artifacts
+    update_status = open_status_window()
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1081, in open_status_window
+    main_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Caoho\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2596, in pack_configure
+    self.tk.call(
+    ~~~~~~~~~~~~^
+          ('pack', 'configure', self._w)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          + self._options(cnf, kw))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+_tkinter.TclError: cannot use geometry manager pack inside . which already has slaves managed by grid
+2025-05-04 17:44:48 - INFO - ==================================================
+2025-05-04 17:44:48 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-04 17:44:48 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-04 17:44:48 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-04 17:44:48 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 09:20:08 - INFO - ==================================================
+2025-05-06 09:20:08 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 09:20:08 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 09:20:08 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 09:20:08 - INFO - Bắt đầu xử lý hiện vật: Thùng rác (Recycle Bin)
+2025-05-06 09:20:08 - INFO - Bắt đầu thu thập: Bin
+2025-05-06 09:20:08 - INFO - Hoàn thành thu thập Bin trong 0.00 giây
+2025-05-06 09:20:08 - INFO - Hoàn thành xử lý hiện vật: Thùng rác (Recycle Bin)
+2025-05-06 09:20:08 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 09:20:17 - INFO - ==================================================
+2025-05-06 09:20:17 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 09:20:17 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 09:20:17 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 09:20:17 - INFO - Bắt đầu xử lý hiện vật: Lịch sử đăng nhập hệ thống
+2025-05-06 09:20:17 - INFO - Bắt đầu thu thập: Sys Logon Info
+2025-05-06 09:20:38 - ERROR - Lỗi khi thu thập Sys Logon Info: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 143, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 676, in sys_logon_info_func
+    hand = win32evtlog.OpenEventLog(server, logtype)
+pywintypes.error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-06 09:20:38 - ERROR - Lỗi khi xử lý hiện vật Lịch sử đăng nhập hệ thống: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1274, in execute_and_save_artifacts
+    func(output_directory)
+    ~~~~^^^^^^^^^^^^^^^^^^
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 143, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 676, in sys_logon_info_func
+    hand = win32evtlog.OpenEventLog(server, logtype)
+pywintypes.error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-06 09:20:38 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 09:58:57 - INFO - ==================================================
+2025-05-06 09:58:57 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 09:58:57 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 09:58:57 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 09:58:57 - ERROR - Lỗi khi xử lý hiện vật Cấu hình địa chỉ IP: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1399, in execute_and_save_artifacts
+    update_status(f"Bắt đầu thu thập: {artifact}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2025-05-06 09:58:57 - CRITICAL - Lỗi nghiêm trọng trong quá trình thực thi: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1399, in execute_and_save_artifacts
+    update_status(f"Bắt đầu thu thập: {artifact}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1409, in execute_and_save_artifacts
+    update_status(f"Lỗi khi thu thập {artifact}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2025-05-06 09:59:00 - INFO - ==================================================
+2025-05-06 09:59:00 - INFO - ==================================================
+2025-05-06 09:59:00 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 09:59:00 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 09:59:00 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 09:59:00 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 09:59:00 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 09:59:00 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 09:59:00 - ERROR - Lỗi khi xử lý hiện vật Cấu hình địa chỉ IP: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1399, in execute_and_save_artifacts
+    update_status(f"Bắt đầu thu thập: {artifact}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2025-05-06 09:59:00 - ERROR - Lỗi khi xử lý hiện vật Cấu hình địa chỉ IP: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1399, in execute_and_save_artifacts
+    update_status(f"Bắt đầu thu thập: {artifact}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2025-05-06 09:59:00 - CRITICAL - Lỗi nghiêm trọng trong quá trình thực thi: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1399, in execute_and_save_artifacts
+    update_status(f"Bắt đầu thu thập: {artifact}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1409, in execute_and_save_artifacts
+    update_status(f"Lỗi khi thu thập {artifact}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2025-05-06 09:59:00 - CRITICAL - Lỗi nghiêm trọng trong quá trình thực thi: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1399, in execute_and_save_artifacts
+    update_status(f"Bắt đầu thu thập: {artifact}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1409, in execute_and_save_artifacts
+    update_status(f"Lỗi khi thu thập {artifact}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2025-05-06 09:59:07 - INFO - ==================================================
+2025-05-06 09:59:07 - INFO - ==================================================
+2025-05-06 09:59:07 - INFO - ==================================================
+2025-05-06 09:59:07 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 09:59:07 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 09:59:07 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 09:59:07 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 09:59:07 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 09:59:07 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 09:59:07 - INFO - Bắt đầu thu thập 2 hiện vật được chọn
+2025-05-06 09:59:07 - INFO - Bắt đầu thu thập 2 hiện vật được chọn
+2025-05-06 09:59:07 - INFO - Bắt đầu thu thập 2 hiện vật được chọn
+2025-05-06 09:59:07 - ERROR - Lỗi khi xử lý hiện vật Cấu hình địa chỉ IP: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1399, in execute_and_save_artifacts
+    update_status(f"Bắt đầu thu thập: {artifact}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2025-05-06 09:59:07 - ERROR - Lỗi khi xử lý hiện vật Cấu hình địa chỉ IP: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1399, in execute_and_save_artifacts
+    update_status(f"Bắt đầu thu thập: {artifact}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2025-05-06 09:59:07 - ERROR - Lỗi khi xử lý hiện vật Cấu hình địa chỉ IP: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1399, in execute_and_save_artifacts
+    update_status(f"Bắt đầu thu thập: {artifact}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2025-05-06 09:59:07 - CRITICAL - Lỗi nghiêm trọng trong quá trình thực thi: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1399, in execute_and_save_artifacts
+    update_status(f"Bắt đầu thu thập: {artifact}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1409, in execute_and_save_artifacts
+    update_status(f"Lỗi khi thu thập {artifact}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2025-05-06 09:59:07 - CRITICAL - Lỗi nghiêm trọng trong quá trình thực thi: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1399, in execute_and_save_artifacts
+    update_status(f"Bắt đầu thu thập: {artifact}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1409, in execute_and_save_artifacts
+    update_status(f"Lỗi khi thu thập {artifact}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2025-05-06 09:59:07 - CRITICAL - Lỗi nghiêm trọng trong quá trình thực thi: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1399, in execute_and_save_artifacts
+    update_status(f"Bắt đầu thu thập: {artifact}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1409, in execute_and_save_artifacts
+    update_status(f"Lỗi khi thu thập {artifact}")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2025-05-06 10:11:13 - INFO - ==================================================
+2025-05-06 10:11:13 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 10:11:13 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 10:11:13 - INFO - Bắt đầu thu thập 2 hiện vật được chọn
+2025-05-06 10:11:14 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 10:11:14 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 10:11:14 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.05 giây
+2025-05-06 10:11:14 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 10:11:14 - INFO - Bắt đầu xử lý hiện vật: Lịch sử đăng nhập hệ thống
+2025-05-06 10:11:14 - INFO - Bắt đầu thu thập: Sys Logon Info
+2025-05-06 10:11:37 - ERROR - Lỗi khi thu thập Sys Logon Info: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 143, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 676, in sys_logon_info_func
+    hand = win32evtlog.OpenEventLog(server, logtype)
+pywintypes.error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-06 10:11:37 - ERROR - Lỗi khi xử lý hiện vật Lịch sử đăng nhập hệ thống: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1274, in execute_and_save_artifacts
+    func(output_directory)
+    ~~~~^^^^^^^^^^^^^^^^^^
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 143, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 676, in sys_logon_info_func
+    hand = win32evtlog.OpenEventLog(server, logtype)
+pywintypes.error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-06 10:11:37 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 11:00:20 - INFO - ==================================================
+2025-05-06 11:00:20 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 11:00:20 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 11:00:20 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 11:00:20 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 11:00:20 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 11:00:20 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.04 giây
+2025-05-06 11:00:20 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 11:00:20 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 11:00:50 - INFO - ==================================================
+2025-05-06 11:00:50 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 11:00:50 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 11:00:50 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 11:00:50 - INFO - Bắt đầu xử lý hiện vật: Lịch sử đăng nhập hệ thống
+2025-05-06 11:00:50 - INFO - Bắt đầu thu thập: Sys Logon Info
+2025-05-06 11:01:13 - ERROR - Lỗi khi thu thập Sys Logon Info: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 143, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 676, in sys_logon_info_func
+    hand = win32evtlog.OpenEventLog(server, logtype)
+pywintypes.error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-06 11:01:13 - ERROR - Lỗi khi xử lý hiện vật Lịch sử đăng nhập hệ thống: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1367, in execute_and_save_artifacts
+    func(output_directory)
+    ~~~~^^^^^^^^^^^^^^^^^^
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 143, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 676, in sys_logon_info_func
+    hand = win32evtlog.OpenEventLog(server, logtype)
+pywintypes.error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-06 11:01:13 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 11:01:55 - INFO - ==================================================
+2025-05-06 11:01:55 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 11:01:55 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 11:01:55 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 11:01:55 - INFO - Bắt đầu xử lý hiện vật: Biến môi trường
+2025-05-06 11:01:55 - INFO - Bắt đầu thu thập: Environment
+2025-05-06 11:01:55 - INFO - Hoàn thành thu thập Environment trong 0.00 giây
+2025-05-06 11:01:55 - INFO - Hoàn thành xử lý hiện vật: Biến môi trường
+2025-05-06 11:01:55 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 11:09:13 - INFO - ==================================================
+2025-05-06 11:09:13 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 11:09:13 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 11:09:13 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 11:09:13 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 11:09:13 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 11:09:13 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.04 giây
+2025-05-06 11:09:13 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 11:09:13 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 11:22:24 - INFO - ==================================================
+2025-05-06 11:22:24 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 11:22:24 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 11:22:24 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 11:22:24 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 11:22:24 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 11:22:24 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 11:22:24 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 11:22:24 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 11:23:20 - INFO - ==================================================
+2025-05-06 11:23:20 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 11:23:20 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 11:23:20 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 11:23:20 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 11:23:20 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 11:23:20 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 11:23:20 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 11:23:20 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 11:23:57 - INFO - ==================================================
+2025-05-06 11:23:57 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 11:23:57 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 11:23:57 - INFO - Bắt đầu thu thập 0 hiện vật được chọn
+2025-05-06 11:23:57 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:26:23 - INFO - ==================================================
+2025-05-06 12:26:23 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:26:23 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 12:26:33 - INFO - ==================================================
+2025-05-06 12:26:33 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:26:33 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 12:26:53 - INFO - ==================================================
+2025-05-06 12:26:53 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:26:53 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 12:27:26 - INFO - ==================================================
+2025-05-06 12:27:26 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:27:26 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 12:27:26 - INFO - Bắt đầu thu thập 2 hiện vật được chọn
+2025-05-06 12:27:26 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 12:27:26 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 12:27:26 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 12:27:26 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 12:27:26 - INFO - Bắt đầu xử lý hiện vật: Dịch vụ đã đăng ký
+2025-05-06 12:27:26 - INFO - Bắt đầu thu thập: Regi Service Info
+2025-05-06 12:27:26 - INFO - Hoàn thành thu thập Regi Service Info trong 0.02 giây
+2025-05-06 12:27:26 - INFO - Hoàn thành xử lý hiện vật: Dịch vụ đã đăng ký
+2025-05-06 12:27:26 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:29:51 - INFO - ==================================================
+2025-05-06 12:29:51 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:29:51 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-06 12:29:51 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:29:51 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 12:29:51 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 12:29:51 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 12:29:51 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 12:29:51 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:36:08 - INFO - ==================================================
+2025-05-06 12:36:08 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:36:08 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 12:36:08 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:36:08 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 12:36:08 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 12:36:08 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 12:36:08 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 12:36:08 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:36:23 - INFO - ==================================================
+2025-05-06 12:36:23 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:36:23 - INFO - Thư mục làm việc: 
+2025-05-06 12:36:23 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:36:23 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 12:36:23 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 12:36:23 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 12:36:23 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 12:36:23 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:36:38 - INFO - ==================================================
+2025-05-06 12:36:38 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:36:38 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 12:36:38 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:36:38 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 12:36:38 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 12:36:38 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 12:36:38 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 12:36:38 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:37:00 - INFO - ==================================================
+2025-05-06 12:37:00 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:37:00 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 12:37:00 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:37:00 - INFO - Bắt đầu xử lý hiện vật: Dữ liệu Registry Hive
+2025-05-06 12:37:00 - INFO - Bắt đầu thu thập: Regi Hive
+2025-05-06 12:37:00 - INFO - Hoàn thành thu thập Regi Hive trong 0.71 giây
+2025-05-06 12:37:00 - INFO - Hoàn thành xử lý hiện vật: Dữ liệu Registry Hive
+2025-05-06 12:37:00 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:37:25 - INFO - ==================================================
+2025-05-06 12:37:25 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:37:25 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 12:37:25 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:37:25 - INFO - Bắt đầu xử lý hiện vật: Nhật ký PowerShell
+2025-05-06 12:37:25 - INFO - Bắt đầu thu thập: Powershell Log
+2025-05-06 12:37:25 - INFO - Hoàn thành thu thập Powershell Log trong 0.72 giây
+2025-05-06 12:37:25 - INFO - Hoàn thành xử lý hiện vật: Nhật ký PowerShell
+2025-05-06 12:37:25 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:40:59 - INFO - ==================================================
+2025-05-06 12:40:59 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:40:59 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 12:40:59 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:40:59 - INFO - Bắt đầu xử lý hiện vật: Bảng ARP
+2025-05-06 12:40:59 - INFO - Bắt đầu thu thập: Arp Info
+2025-05-06 12:40:59 - INFO - Hoàn thành thu thập Arp Info trong 0.04 giây
+2025-05-06 12:40:59 - INFO - Hoàn thành xử lý hiện vật: Bảng ARP
+2025-05-06 12:40:59 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:42:49 - INFO - ==================================================
+2025-05-06 12:42:49 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:42:49 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 12:42:49 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:42:49 - INFO - Bắt đầu xử lý hiện vật: Bảng ARP
+2025-05-06 12:42:49 - INFO - Bắt đầu thu thập: Arp Info
+2025-05-06 12:42:49 - INFO - Hoàn thành thu thập Arp Info trong 0.03 giây
+2025-05-06 12:42:49 - INFO - Hoàn thành xử lý hiện vật: Bảng ARP
+2025-05-06 12:42:49 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:46:52 - INFO - ==================================================
+2025-05-06 12:46:52 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:46:52 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 12:46:52 - INFO - Bắt đầu thu thập 0 hiện vật được chọn
+2025-05-06 12:46:52 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:52:52 - INFO - ==================================================
+2025-05-06 12:52:52 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:52:52 - INFO - Thư mục làm việc: 
+2025-05-06 12:52:52 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:52:52 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 12:52:52 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 12:52:52 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 12:52:52 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 12:52:52 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:53:04 - INFO - ==================================================
+2025-05-06 12:53:04 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:53:04 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 12:53:04 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:53:04 - INFO - Bắt đầu xử lý hiện vật: Thông tin hệ thống
+2025-05-06 12:53:04 - INFO - Bắt đầu thu thập: Sys Info
+2025-05-06 12:53:36 - INFO - Hoàn thành thu thập Sys Info trong 32.52 giây
+2025-05-06 12:53:36 - INFO - Hoàn thành xử lý hiện vật: Thông tin hệ thống
+2025-05-06 12:53:36 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:53:36 - INFO - ==================================================
+2025-05-06 12:53:36 - INFO - ==================================================
+2025-05-06 12:53:36 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:53:36 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:53:36 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 12:53:36 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 12:53:36 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:53:36 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:53:36 - INFO - Bắt đầu xử lý hiện vật: Thông tin hệ thống
+2025-05-06 12:53:36 - INFO - Bắt đầu xử lý hiện vật: Thông tin hệ thống
+2025-05-06 12:53:36 - INFO - Bắt đầu thu thập: Sys Info
+2025-05-06 12:53:36 - INFO - Bắt đầu thu thập: Sys Info
+2025-05-06 12:55:18 - INFO - ==================================================
+2025-05-06 12:55:18 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:55:18 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 12:55:18 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:55:18 - INFO - Bắt đầu xử lý hiện vật: Thông tin hệ thống
+2025-05-06 12:55:18 - INFO - Bắt đầu thu thập: Sys Info
+2025-05-06 12:56:31 - INFO - ==================================================
+2025-05-06 12:56:31 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:56:31 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 12:56:31 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:56:31 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 12:56:31 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 12:56:31 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 12:56:31 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 12:56:31 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 12:56:59 - INFO - ==================================================
+2025-05-06 12:56:59 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:56:59 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 12:56:59 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:56:59 - INFO - Bắt đầu xử lý hiện vật: Thông tin kết nối (cổng đang mở)
+2025-05-06 12:56:59 - INFO - Bắt đầu thu thập: Connection Info
+2025-05-06 12:57:52 - INFO - ==================================================
+2025-05-06 12:57:52 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 12:57:52 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 12:57:52 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 12:57:52 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 12:57:52 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 12:57:52 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 12:57:52 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 12:57:52 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 13:00:02 - INFO - ==================================================
+2025-05-06 13:00:02 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 13:00:02 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 13:00:02 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 13:00:02 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:00:02 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 13:00:02 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 13:00:02 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:00:02 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 13:00:41 - INFO - ==================================================
+2025-05-06 13:00:41 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 13:00:41 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 13:00:41 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 13:00:41 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:00:41 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 13:00:41 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 13:00:41 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:00:41 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 13:04:04 - INFO - ==================================================
+2025-05-06 13:04:04 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 13:04:04 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 13:04:04 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 13:04:04 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:04:04 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 13:04:04 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 13:04:04 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:04:04 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 13:04:33 - INFO - ==================================================
+2025-05-06 13:04:33 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 13:04:33 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 13:04:33 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 13:04:33 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:04:33 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 13:04:33 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 13:04:33 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:04:33 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 13:08:14 - INFO - ==================================================
+2025-05-06 13:08:14 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 13:08:14 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 13:08:14 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 13:08:14 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:08:14 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 13:08:14 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.08 giây
+2025-05-06 13:08:14 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:08:14 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 13:12:34 - INFO - ==================================================
+2025-05-06 13:12:34 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 13:12:34 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 13:12:34 - INFO - 🟢 Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 13:12:34 - INFO - 📦 Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:12:34 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 13:12:34 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 13:12:34 - INFO - ✅ Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:12:34 - INFO - 🎯 Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 13:13:15 - INFO - ==================================================
+2025-05-06 13:13:15 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 13:13:15 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 13:13:15 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 13:13:15 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:13:15 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 13:13:15 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 13:13:15 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:13:15 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 13:17:00 - INFO - ==================================================
+2025-05-06 13:17:00 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 13:17:00 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 13:17:00 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 13:17:00 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:17:00 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 13:17:00 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 13:17:00 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:17:00 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 13:17:23 - INFO - ==================================================
+2025-05-06 13:17:23 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 13:17:23 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 13:17:23 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 13:17:23 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:17:23 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 13:17:23 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 13:17:23 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:17:23 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 13:18:57 - INFO - ==================================================
+2025-05-06 13:18:57 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 13:18:57 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 13:18:57 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 13:18:57 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:18:57 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 13:18:57 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 13:18:57 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:18:57 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 13:19:34 - INFO - ==================================================
+2025-05-06 13:19:34 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 13:19:34 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 13:19:34 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 13:19:34 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:19:34 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 13:19:34 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 13:19:34 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:19:34 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 13:19:51 - INFO - ==================================================
+2025-05-06 13:19:51 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 13:19:51 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 13:19:51 - INFO - Bắt đầu thu thập 2 hiện vật được chọn
+2025-05-06 13:19:51 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:19:51 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 13:19:51 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.03 giây
+2025-05-06 13:19:51 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:19:51 - INFO - Bắt đầu xử lý hiện vật: Lịch trình tác vụ (Task Scheduler)
+2025-05-06 13:19:51 - INFO - Bắt đầu thu thập: Work Schedule Info
+2025-05-06 13:19:52 - INFO - Hoàn thành thu thập Work Schedule Info trong 0.49 giây
+2025-05-06 13:19:52 - INFO - Hoàn thành xử lý hiện vật: Lịch trình tác vụ (Task Scheduler)
+2025-05-06 13:19:52 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 13:35:10 - INFO - ==================================================
+2025-05-06 13:35:10 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 13:35:10 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 13:35:10 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 13:35:10 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:35:10 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 13:35:10 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.08 giây
+2025-05-06 13:35:10 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:35:10 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 13:37:08 - INFO - ==================================================
+2025-05-06 13:37:08 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 13:37:08 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 13:37:08 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 13:37:08 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:37:08 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 13:37:08 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 13:37:08 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:37:08 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 13:37:47 - INFO - ==================================================
+2025-05-06 13:37:47 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 13:37:47 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 13:37:47 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 13:37:47 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:37:47 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 13:37:47 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 13:37:47 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 13:37:47 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 14:51:34 - INFO - ==================================================
+2025-05-06 14:51:34 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 14:51:34 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 14:51:34 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 14:51:34 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 14:51:34 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 14:51:34 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.03 giây
+2025-05-06 14:51:34 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 14:51:34 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 14:56:49 - INFO - ==================================================
+2025-05-06 14:56:49 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 14:56:49 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 14:56:49 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 14:56:49 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 14:56:49 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 14:56:49 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 14:56:49 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 14:56:49 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 15:00:22 - INFO - ==================================================
+2025-05-06 15:00:22 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 15:00:22 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 15:00:22 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 15:00:22 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 15:00:22 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 15:00:22 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 15:00:22 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 15:00:22 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 15:00:57 - INFO - ==================================================
+2025-05-06 15:00:57 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 15:00:57 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 15:00:57 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 15:00:57 - INFO - Bắt đầu xử lý hiện vật: Thùng rác (Recycle Bin)
+2025-05-06 15:00:57 - INFO - Bắt đầu thu thập: Bin
+2025-05-06 15:00:57 - INFO - Hoàn thành thu thập Bin trong 0.00 giây
+2025-05-06 15:00:57 - INFO - Hoàn thành xử lý hiện vật: Thùng rác (Recycle Bin)
+2025-05-06 15:00:57 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 15:27:34 - INFO - ==================================================
+2025-05-06 15:27:34 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 15:27:34 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 15:27:34 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 15:27:34 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 15:27:34 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 15:27:34 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 15:27:34 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 15:27:34 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 15:32:53 - INFO - ==================================================
+2025-05-06 15:32:53 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 15:32:53 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 15:32:53 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 15:32:53 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 15:32:53 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 15:32:53 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 15:32:53 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 15:32:53 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 15:33:26 - INFO - ==================================================
+2025-05-06 15:33:26 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 15:33:26 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 15:33:26 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 15:33:26 - INFO - Bắt đầu xử lý hiện vật: Trình theo dõi sử dụng ứng dụng (UserAssist)
+2025-05-06 15:33:26 - INFO - Bắt đầu thu thập: Userassist
+2025-05-06 15:33:26 - ERROR - Lỗi khi thu thập Userassist: 'charmap' codec can't encode character '\u1ed1' in position 40: character maps to <undefined>
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 168, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 779, in userassist_func
+    csv_writer(userassist_list)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 776, in csv_writer
+    csv_writer.writerow([file_name])
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Caoho\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u1ed1' in position 40: character maps to <undefined>
+2025-05-06 15:33:26 - ERROR - Lỗi khi xử lý hiện vật Trình theo dõi sử dụng ứng dụng (UserAssist): 'charmap' codec can't encode character '\u1ed1' in position 40: character maps to <undefined>
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1824, in execute_and_save_artifacts
+    func(output_entry.get())
+    ~~~~^^^^^^^^^^^^^^^^^^^^
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 168, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 779, in userassist_func
+    csv_writer(userassist_list)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 776, in csv_writer
+    csv_writer.writerow([file_name])
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Caoho\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u1ed1' in position 40: character maps to <undefined>
+2025-05-06 15:33:26 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 15:33:46 - INFO - ==================================================
+2025-05-06 15:33:46 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 15:33:46 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 15:33:46 - INFO - Bắt đầu thu thập 2 hiện vật được chọn
+2025-05-06 15:33:46 - INFO - Bắt đầu xử lý hiện vật: Lịch sử đăng nhập hệ thống
+2025-05-06 15:33:46 - INFO - Bắt đầu thu thập: Sys Logon Info
+2025-05-06 15:33:56 - ERROR - Lỗi khi thu thập Sys Logon Info: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 168, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 701, in sys_logon_info_func
+    hand = win32evtlog.OpenEventLog(server, logtype)
+pywintypes.error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-06 15:33:56 - ERROR - Lỗi khi xử lý hiện vật Lịch sử đăng nhập hệ thống: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1824, in execute_and_save_artifacts
+    func(output_entry.get())
+    ~~~~^^^^^^^^^^^^^^^^^^^^
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 168, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 701, in sys_logon_info_func
+    hand = win32evtlog.OpenEventLog(server, logtype)
+pywintypes.error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-06 15:33:56 - INFO - Bắt đầu xử lý hiện vật: Lịch sử trình duyệt web
+2025-05-06 15:33:56 - INFO - Bắt đầu thu thập: Browser Info
+2025-05-06 15:33:57 - INFO - Hoàn thành thu thập Browser Info trong 0.59 giây
+2025-05-06 15:33:57 - INFO - Hoàn thành xử lý hiện vật: Lịch sử trình duyệt web
+2025-05-06 15:33:57 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 15:40:24 - INFO - ==================================================
+2025-05-06 15:40:24 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 15:40:24 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 15:40:24 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-06 15:40:24 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 15:40:24 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 15:40:24 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-06 15:40:24 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 15:40:24 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-06 15:41:46 - INFO - ==================================================
+2025-05-06 15:41:46 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-06 15:41:46 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-06 15:41:46 - INFO - Bắt đầu thu thập 3 hiện vật được chọn
+2025-05-06 15:41:46 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 15:41:46 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-06 15:41:46 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.03 giây
+2025-05-06 15:41:46 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-06 15:41:46 - INFO - Bắt đầu xử lý hiện vật: Lịch sử đăng nhập hệ thống
+2025-05-06 15:41:46 - INFO - Bắt đầu thu thập: Sys Logon Info
+2025-05-06 15:41:56 - ERROR - Lỗi khi thu thập Sys Logon Info: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 168, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 701, in sys_logon_info_func
+    hand = win32evtlog.OpenEventLog(server, logtype)
+pywintypes.error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-06 15:41:56 - ERROR - Lỗi khi xử lý hiện vật Lịch sử đăng nhập hệ thống: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1744, in execute_and_save_artifacts
+    func(output_entry.get())
+    ~~~~^^^^^^^^^^^^^^^^^^^^
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 168, in wrapper
+    result = func(output_dir, *args, **kwargs)
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 701, in sys_logon_info_func
+    hand = win32evtlog.OpenEventLog(server, logtype)
+pywintypes.error: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-06 15:41:56 - INFO - Bắt đầu xử lý hiện vật: Lịch sử trình duyệt web
+2025-05-06 15:41:56 - INFO - Bắt đầu thu thập: Browser Info
+2025-05-06 15:41:57 - INFO - Hoàn thành thu thập Browser Info trong 0.47 giây
+2025-05-06 15:41:57 - INFO - Hoàn thành xử lý hiện vật: Lịch sử trình duyệt web
+2025-05-06 15:41:57 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-08 13:37:39 - INFO - ==================================================
+2025-05-08 13:37:39 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-08 13:37:39 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-08 13:37:39 - ERROR - Không thể tạo key pair: name 'rsa' is not defined
+2025-05-08 13:37:39 - CRITICAL - Lỗi nghiêm trọng trong quá trình thực thi: name 'rsa' is not defined
+Traceback (most recent call last):
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 1946, in execute_and_save_artifacts
+    setup_logging(output_entry.get())
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "e:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\Artifact_Collection_Tool.py", line 240, in setup_logging
+    private_key = rsa.generate_private_key(
+                  ^^^
+NameError: name 'rsa' is not defined
+2025-05-08 13:39:28 - INFO - ==================================================
+2025-05-08 13:39:28 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-08 13:39:28 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-08 13:39:28 - INFO - Đã tạo cặp khóa số học RSA (2048-bit) thành công.
+2025-05-08 13:39:28 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-08 13:39:28 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-08 13:39:28 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-08 13:39:28 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.02 giây
+2025-05-08 13:39:28 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-08 13:39:29 - INFO - Báo cáo tính toàn vẹn: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main\integrity_report.json
+2025-05-08 13:39:29 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-08 13:42:06 - INFO - ==================================================
+2025-05-08 13:42:06 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-08 13:42:06 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-08 13:42:06 - INFO - Khóa RSA đã tồn tại, bỏ qua bước tạo mới.
+2025-05-08 13:42:06 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-08 13:42:06 - INFO - Bắt đầu xử lý hiện vật: Thông tin hệ thống
+2025-05-08 13:42:06 - INFO - Bắt đầu thu thập: Sys Info
+2025-05-08 13:42:39 - INFO - Hoàn thành thu thập Sys Info trong 32.67 giây
+2025-05-08 13:42:39 - INFO - Hoàn thành xử lý hiện vật: Thông tin hệ thống
+2025-05-08 13:42:39 - INFO - Báo cáo tính toàn vẹn: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main\integrity_report.json
+2025-05-08 13:42:39 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-08 13:45:37 - INFO - ==================================================
+2025-05-08 13:45:37 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-08 13:45:37 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-08 13:45:37 - INFO - Khóa RSA đã tồn tại, bỏ qua bước tạo mới.
+2025-05-08 13:45:37 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-08 13:45:37 - INFO - Bắt đầu xử lý hiện vật: Lịch trình tác vụ (Task Scheduler)
+2025-05-08 13:45:37 - INFO - Bắt đầu thu thập: Work Schedule Info
+2025-05-08 13:45:38 - INFO - Hoàn thành thu thập Work Schedule Info trong 0.54 giây
+2025-05-08 13:45:38 - INFO - Hoàn thành xử lý hiện vật: Lịch trình tác vụ (Task Scheduler)
+2025-05-08 13:45:38 - INFO - Báo cáo tính toàn vẹn: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main\integrity_report.json
+2025-05-08 13:45:38 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-08 13:47:07 - INFO - ==================================================
+2025-05-08 13:47:07 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-08 13:47:07 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-08 13:47:07 - INFO - Khóa RSA đã tồn tại, bỏ qua bước tạo mới.
+2025-05-08 13:47:07 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-08 13:47:07 - INFO - Bắt đầu xử lý hiện vật: Lịch trình tác vụ (Task Scheduler)
+2025-05-08 13:47:07 - INFO - Bắt đầu thu thập: Work Schedule Info
+2025-05-08 13:47:08 - INFO - Hoàn thành thu thập Work Schedule Info trong 0.46 giây
+2025-05-08 13:47:08 - INFO - Hoàn thành xử lý hiện vật: Lịch trình tác vụ (Task Scheduler)
+2025-05-08 13:47:08 - INFO - Báo cáo tính toàn vẹn: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main\integrity_report.json
+2025-05-08 13:47:08 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-08 13:57:08 - INFO - ==================================================
+2025-05-08 13:57:08 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-08 13:57:08 - INFO - Thư mục làm việc: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main
+2025-05-08 13:57:08 - INFO - Khóa RSA đã tồn tại, bỏ qua bước tạo mới.
+2025-05-08 13:57:08 - INFO - Bắt đầu thu thập 0 hiện vật được chọn
+2025-05-08 13:57:08 - INFO - Báo cáo tính toàn vẹn: E:/Hoctap/LT06/DoAn/ChiNgoc/OSS_Project-main\integrity_report.json
+2025-05-08 13:57:08 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-08 13:57:41 - INFO - ==================================================
+2025-05-08 13:57:41 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-08 13:57:41 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-08 13:57:41 - INFO - Khóa RSA đã tồn tại, bỏ qua bước tạo mới.
+2025-05-08 13:57:41 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-08 13:57:41 - INFO - Bắt đầu xử lý hiện vật: Nhật ký PowerShell
+2025-05-08 13:57:41 - INFO - Bắt đầu thu thập: Powershell Log
+2025-05-08 13:57:42 - INFO - Hoàn thành thu thập Powershell Log trong 0.74 giây
+2025-05-08 13:57:42 - INFO - Hoàn thành xử lý hiện vật: Nhật ký PowerShell
+2025-05-08 13:57:42 - INFO - Báo cáo tính toàn vẹn: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\integrity_report.json
+2025-05-08 13:57:42 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-08 13:58:25 - INFO - ==================================================
+2025-05-08 13:58:25 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-08 13:58:25 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-08 13:58:25 - INFO - Khóa RSA đã tồn tại, bỏ qua bước tạo mới.
+2025-05-08 13:58:25 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-08 13:58:25 - INFO - Bắt đầu xử lý hiện vật: Danh sách bản vá (Patch List)
+2025-05-08 13:58:25 - INFO - Bắt đầu thu thập: Patch List
+2025-05-08 13:58:25 - INFO - Hoàn thành thu thập Patch List trong 0.19 giây
+2025-05-08 13:58:25 - INFO - Hoàn thành xử lý hiện vật: Danh sách bản vá (Patch List)
+2025-05-08 13:58:25 - INFO - Báo cáo tính toàn vẹn: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\integrity_report.json
+2025-05-08 13:58:25 - INFO - Đã hoàn thành tất cả tác vụ thu thập
+2025-05-08 16:45:04 - INFO - ==================================================
+2025-05-08 16:45:04 - INFO - Khởi động chương trình thu thập hiện vật số
+2025-05-08 16:45:04 - INFO - Thư mục làm việc: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main
+2025-05-08 16:45:04 - INFO - Khóa RSA đã tồn tại, bỏ qua bước tạo mới.
+2025-05-08 16:45:04 - INFO - Bắt đầu thu thập 1 hiện vật được chọn
+2025-05-08 16:45:04 - INFO - Bắt đầu xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-08 16:45:04 - INFO - Bắt đầu thu thập: Ip Setting Info
+2025-05-08 16:45:04 - INFO - Hoàn thành thu thập Ip Setting Info trong 0.03 giây
+2025-05-08 16:45:04 - INFO - Hoàn thành xử lý hiện vật: Cấu hình địa chỉ IP
+2025-05-08 16:45:04 - INFO - Báo cáo tính toàn vẹn: E:\Hoctap\LT06\DoAn\ChiNgoc\OSS_Project-main\integrity_report.json
+2025-05-08 16:45:04 - INFO - Đã hoàn thành tất cả tác vụ thu thập
